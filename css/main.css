@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Amsterdam';
+    src: url(../fonts/Amsterdam-ZVGqm.ttf);
+}
+
+
+@font-face {
+    font-family: 'DesMorgan';
+    src: url(../fonts/Des\ Morgan.ttf);
+}
+
+
+body{
+    background-image: url(../images/pink.svg.jpg);
+    background-size: cover;
+    }
+header{
+    text-align: center;
+    font-size: 50px;
+    
+    font-family: "Amsterdam";
+    }
+hr{
+    height: 5px;
+    background-color: black;
+    }
+    
+    p{
+        font-family: "DesMorgan";
+      font-size: 40px;
+        text-align: center;
+    }
+
+    a:link{
+        color: rgb(248, 91, 117);
+        text-decoration: none;
+    }
+
+    a:visited{
+        color: rgb(247, 110, 60);
+        text-decoration: underline;
+    }
